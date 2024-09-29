@@ -1,0 +1,26 @@
+.app__view-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: .15rem;
+  justify-content: center;
+  justify-items:center;
+  align-items: center;
+  max-width: 3rem;
+  min-width: 1rem;
+  min-height: 1rem;
+  padding: .5rem;
+  &:hover{
+    background-color: var(--backgroundSecondary);
+  }
+
+}
+.app__view-grid--circle{
+   min-width: .25rem;
+    min-height: .25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff;
+
+}

@@ -1,0 +1,40 @@
+/*
+    1. 320px — 600px: Mobile devices.
+    2. 481px — 768px: iPads, Tablets.
+    3. 769px — 1024px: Small screens, laptops.
+    4. 1025px — 1200px: Desktops, large screens.
+    5. 1201px and more — Extra large screens, TV.
+*/
+
+.mobile{
+    @media screen and (max-width:600px) and (orientation:portriat){
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        line-height:1.5;
+        width: 100%;
+    }
+    @media screen and (max-width:600px) and (orientation:landscape){
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25em;
+        width: 100%;
+    }
+}
+.tablet{
+    @media screen and (max-width:768px) and (orientation:landscape){
+        font-size: 1.25em;
+        width: 95%;
+        
+    };
+    @media screen and (max-width:768px) and (orientation:portriat){
+        flex-direction: column;
+        font-size: 1.25em;
+        width: 100%;
+    };
+}
+.laptop{
+    @media screen and (max-width:1024px){
+        width: 90%;
+    };
+}

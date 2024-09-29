@@ -1,0 +1,20 @@
+.app__product-wrapper{
+  background-color: #fff;
+    border: 1px solid rgb(223, 223, 223);
+    justify-content: flex-start;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    &:hover{
+        box-shadow: 1px 1px 2px 1px rgba(199, 196, 196, 0.26),
+    -1px 1px 2px 1px rgba(199, 196, 196, 0.26);
+    transform: scale(1.025);
+    }
+    
+}
+.app__product-info{
+    display: flex;
+    visibility: hidden;
+    justify-content: space-between;
+}

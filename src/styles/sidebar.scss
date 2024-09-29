@@ -1,0 +1,24 @@
+.app__sidebar{
+    position: sticky;
+    top: 5rem;
+    right: .25rem;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f5f3eb;
+
+    box-shadow: 1px 1px 1px  rgba(1,1,1,.39);
+    grid-area: sidebar-left;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        //background-color: var(--backgroundGray);
+        padding: 1rem ;
+        list-style: none;
+        li{
+            padding: .25rem 1rem;
+        }
+    
+    }
+}

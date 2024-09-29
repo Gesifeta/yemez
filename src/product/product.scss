@@ -1,0 +1,8 @@
+.app__form-product{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    input,textarea,select{
+        width: 100%;
+    }
+}

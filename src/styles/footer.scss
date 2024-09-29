@@ -1,0 +1,12 @@
+.app__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    grid-area: 2rem;
+    min-height: 10rem;
+    background-color: var(--backgroundPrimary);
+}
