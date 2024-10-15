@@ -4,7 +4,7 @@ import fetchGraphQL from "../endpoints/api-endpoint";
 
 export const getProducts = createAsyncThunk(
   "getProducts/products",
-  async (reqbody) => fetchGraphQL(reqbody)
+  async (reqbody) => await fetchGraphQL(reqbody)
 );
 const initialState = {
   products: [],
